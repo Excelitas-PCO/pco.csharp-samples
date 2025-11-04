@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample", "SimpleExample\SimpleExample.csproj", "{5DF6AF65-34C5-45ED-A7B5-5063E41B4A78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1DB2DF5-836D-4343-9AC0-EDD4968BA997} = {C1DB2DF5-836D-4343-9AC0-EDD4968BA997}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCameraExample", "MultiCameraExample\MultiCameraExample.csproj", "{491E3A78-7207-4E3D-95B7-F04973B332F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorConvertExample", "ColorConvertExample\ColorConvertExample.csproj", "{C9FD9A9E-3D8F-47D7-8AE7-6128EC238E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample_CamRam", "SimpleExample_CamRam\SimpleExample_CamRam.csproj", "{D32ACCDC-AAFC-4DF0-ADA3-E83B22CE6A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileModeExample", "FileModeExample\FileModeExample.csproj", "{B8B9F618-4F8C-4076-B6EA-D7749A080608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample_FIFO", "SimpleExample_FIFO\SimpleExample_FIFO.csproj", "{8D138C43-4B90-405A-B3EA-4EED9B61CF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample_Softtrigger", "SimpleExample_Softtrigger\SimpleExample_Softtrigger.csproj", "{7DC96F34-245D-4F12-B163-EC1F95843DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pco_csharp", "C:\Program Files\PCO Digital Camera Toolbox\pco.csharp\pco\pco_csharp.csproj", "{C1DB2DF5-836D-4343-9AC0-EDD4968BA997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF6AF65-34C5-45ED-A7B5-5063E41B4A78}.Debug|x64.ActiveCfg = Debug|x64
+		{5DF6AF65-34C5-45ED-A7B5-5063E41B4A78}.Debug|x64.Build.0 = Debug|x64
+		{5DF6AF65-34C5-45ED-A7B5-5063E41B4A78}.Release|x64.ActiveCfg = Release|x64
+		{5DF6AF65-34C5-45ED-A7B5-5063E41B4A78}.Release|x64.Build.0 = Release|x64
+		{491E3A78-7207-4E3D-95B7-F04973B332F9}.Debug|x64.ActiveCfg = Debug|x64
+		{491E3A78-7207-4E3D-95B7-F04973B332F9}.Debug|x64.Build.0 = Debug|x64
+		{491E3A78-7207-4E3D-95B7-F04973B332F9}.Release|x64.ActiveCfg = Release|x64
+		{491E3A78-7207-4E3D-95B7-F04973B332F9}.Release|x64.Build.0 = Release|x64
+		{C9FD9A9E-3D8F-47D7-8AE7-6128EC238E03}.Debug|x64.ActiveCfg = Debug|x64
+		{C9FD9A9E-3D8F-47D7-8AE7-6128EC238E03}.Debug|x64.Build.0 = Debug|x64
+		{C9FD9A9E-3D8F-47D7-8AE7-6128EC238E03}.Release|x64.ActiveCfg = Release|x64
+		{C9FD9A9E-3D8F-47D7-8AE7-6128EC238E03}.Release|x64.Build.0 = Release|x64
+		{D32ACCDC-AAFC-4DF0-ADA3-E83B22CE6A86}.Debug|x64.ActiveCfg = Debug|x64
+		{D32ACCDC-AAFC-4DF0-ADA3-E83B22CE6A86}.Debug|x64.Build.0 = Debug|x64
+		{D32ACCDC-AAFC-4DF0-ADA3-E83B22CE6A86}.Release|x64.ActiveCfg = Release|x64
+		{D32ACCDC-AAFC-4DF0-ADA3-E83B22CE6A86}.Release|x64.Build.0 = Release|x64
+		{B8B9F618-4F8C-4076-B6EA-D7749A080608}.Debug|x64.ActiveCfg = Debug|x64
+		{B8B9F618-4F8C-4076-B6EA-D7749A080608}.Debug|x64.Build.0 = Debug|x64
+		{B8B9F618-4F8C-4076-B6EA-D7749A080608}.Release|x64.ActiveCfg = Release|x64
+		{B8B9F618-4F8C-4076-B6EA-D7749A080608}.Release|x64.Build.0 = Release|x64
+		{8D138C43-4B90-405A-B3EA-4EED9B61CF98}.Debug|x64.ActiveCfg = Debug|x64
+		{8D138C43-4B90-405A-B3EA-4EED9B61CF98}.Debug|x64.Build.0 = Debug|x64
+		{8D138C43-4B90-405A-B3EA-4EED9B61CF98}.Release|x64.ActiveCfg = Release|x64
+		{8D138C43-4B90-405A-B3EA-4EED9B61CF98}.Release|x64.Build.0 = Release|x64
+		{7DC96F34-245D-4F12-B163-EC1F95843DEB}.Debug|x64.ActiveCfg = Debug|x64
+		{7DC96F34-245D-4F12-B163-EC1F95843DEB}.Debug|x64.Build.0 = Debug|x64
+		{7DC96F34-245D-4F12-B163-EC1F95843DEB}.Release|x64.ActiveCfg = Release|x64
+		{7DC96F34-245D-4F12-B163-EC1F95843DEB}.Release|x64.Build.0 = Release|x64
+		{C1DB2DF5-836D-4343-9AC0-EDD4968BA997}.Debug|x64.ActiveCfg = Debug|x64
+		{C1DB2DF5-836D-4343-9AC0-EDD4968BA997}.Debug|x64.Build.0 = Debug|x64
+		{C1DB2DF5-836D-4343-9AC0-EDD4968BA997}.Release|x64.ActiveCfg = Release|x64
+		{C1DB2DF5-836D-4343-9AC0-EDD4968BA997}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A142C06-5951-4EF7-9B8E-0B0F45131839}
+	EndGlobalSection
+EndGlobal
